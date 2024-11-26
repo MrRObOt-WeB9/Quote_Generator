@@ -1,0 +1,19 @@
+.container h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5rem;
+}
+.container .inner button {
+  transition: all 0.3s background-color;
+  -webkit-transition: all 0.3s background-color;
+  -moz-transition: all 0.3s background-color;
+  -ms-transition: all 0.3s background-color;
+  -o-transition: all 0.3s background-color;
+}
+.container .inner button:hover {
+  background-color: #008000;
+}
+@media (max-width: 300px) {
+  :root {
+    font-size: 10px;
+  }
+}

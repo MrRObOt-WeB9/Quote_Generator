@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quotes Assignment</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner text-center">
+        <div class="inner-header mb-2 mt-5">
+          <h1 class="mb-5">Quote of the Day</h1>
+          <p class="fs-1 px-md-5">
+            Press the button below to recieve a random quote!
+          </p>
+        </div>
+        <button
+          class="btn btn-primary border border-2 border-dark mx-auto d-block py-4 px-5 mb-5"
+          onclick="getQuote()"
+        >
+          New Quote
+        </button>
+        <div class="row" id="myRow">
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
