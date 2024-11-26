@@ -7,15 +7,15 @@ var quotes = [
     author: "--Bernard M. Baruch",
   },
   {
-    quote: "You only live once, but if you do it right, once is enough.",
+    quote: '"You only live once, but if you do it right, once is enough."',
     author: "--Mae West",
   },
   {
     quote: `
-    You've gotta dance like there's nobody watching, 
+    "You've gotta dance like there's nobody watching, 
     Love like you'll never be hurt,
     Sing like there's nobody listening,
-    And live like it's heaven on earth.`,
+    And live like it's heaven on earth."`,
     author: "--William W. Purkey",
   },
   {
